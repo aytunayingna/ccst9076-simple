@@ -176,14 +176,14 @@ export default function EditorPanel({
                 <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-md">
                   <FileText className="h-4 w-4 text-white" />
                 </div>
-                Why users should hold the main accountability for social media addiction?
+                Social media is good for building relationships
               </CardTitle>
             </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-3">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Write an essay with no more than 300 words to summarize your claims.
+                      Write an argument for this motion.
                     </label>
                   </div>
                   <Textarea
@@ -205,13 +205,13 @@ export default function EditorPanel({
                 <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center shadow-md">
                   <Sparkles className="h-4 w-4 text-white" />
                 </div>
-                Why social media platforms should hold the main accountability for social media addiction?
+                Social media is bad for building relationships
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
             <div className="space-y-2">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Write an essay with no more than 300 words to summarize your claims.
+                  Write an argument against this motion.
                 </label>
                 <Textarea
                   value={structuredContent.part1_concept2}
