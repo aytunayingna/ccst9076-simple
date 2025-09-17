@@ -88,7 +88,7 @@ export default async function Home() {
               
               {/* Current User Info */}
               <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 rounded-full border border-green-200">
-                <span className="text-sm text-green-700 font-medium">User ID: {currentUserId}</span>
+                <span className="text-sm text-green-700 font-medium">UID: {currentUserId}</span>
                 {currentUser && (
                   <span className="text-sm text-green-600">({currentUser.name})</span>
                 )}

@@ -37,7 +37,7 @@ export async function login(formData: FormData) {
     await setUserIdInCookie(user[0].id)
   } catch (error) {
     console.error(error)
-    return redirect(`/login?error=${encodeURIComponent("Server error, please try again.")}`)
+    return redirect(`/login?error=${encodeURIComponent("Wrong student ID or name, please try again.")}`)
   }
 
   // Redirect to the main page on success
